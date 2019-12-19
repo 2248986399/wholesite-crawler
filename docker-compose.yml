@@ -1,0 +1,11 @@
+version: '2'
+services:
+  whole-site-crawler:
+    container_name: crawler
+    image: docker.pkg.github.com/speechfree/wholesite-crawler/wholesite-crawler:prod
+    working_dir: /app
+    privileged: True
+    env_file: prod.env
+    volumes:
+      - ./app:/app
+    command: ["tail", "-f", "/dev/null"]
