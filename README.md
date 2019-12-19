@@ -4,9 +4,9 @@
 
 ## 已有爬虫
 
-1. ccradb 中国文化大革命文库
-2. xys 新语丝
-3. letscorp 墙外楼
+1. ccradb 中国文化大革命文库 https://speechfree.github.io/cultural-revolution-database/ 
+2. xys 新语丝 https://speechfree.github.io/xys/
+3. letscorp 墙外楼 https://speechfree.github.io/letscorp/
 
 ## 开发
 
