@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/speechfree/wholesite-crawler/wholesite-crawler:dev
+FROM docker.pkg.github.com/speechfree/wholesite-crawler/wholesite-crawler:base
 
 COPY ./app/requirements.txt ./
 
